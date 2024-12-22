@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+
+.school-header {
+    background-color: #001C2C;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+.navbar {
+    background-color: #001C2C;
+}
+
+.navbar .nav-link {
+    color: white !important;
+}
+
+.section-title {
+    color: #001C2C;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.leaders img,
+.team img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.footer {
+    background-color: #001C2C;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+.research-section .description-title {
+    color: black;
+    text-decoration: none;
+}
+
+/*School navbar*/
+.top-bar {
+    background-color: #f8f9fa;
+    padding: 5px 0;
+    font-size: 14px;
+}
+.top-bar a {
+    text-decoration: none;
+    color: #333;
+    margin-right: 15px;
+}
+.top-bar a:hover {
+    text-decoration: underline;
+}
+.logo-bar {
+    padding: 15px 0;
+    border-bottom: 2px solid #d1d1d1;
+}
+.logo-bar img {
+    height: 70px;
+}
+.logo-bar>h1 {
+    font-size: 22px;
+    margin: 0;
+}
+.search-bar {
+    background-color: #e8f1fc;
+    padding: 10px 0;
+    font-size: 14px;
+}
+.search-bar a {
+    color: #c60000;
+    text-decoration: none;
+    margin-right: 10px;
+}
+.search-bar a:hover {
+    text-decoration: underline;
+}
+.search-bar input[type="text"] {
+    width: 300px;
+    padding: 5px;
+    margin-right: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+.search-bar input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.search-bar input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+.bold-text{
+    font-weight: bold;
+}
+.locator>a{
+text-decoration: none;
+color: #333;    
+}
